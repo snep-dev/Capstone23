@@ -36,7 +36,7 @@ const int timer1_counter = 65223;   //preload timer 65536-8MHz/256/100Hz
 //volatile short monitor[MAX_RESULTS]; //before conversion
 volatile float voltage[MAX_RESULTS]; //voltage array to be simulated
 
-float my_array[50] = {-0.00820449,
+float my_array[50] = {-0.00820449, //THIS IS A TEST SET OF SAMPLE VOLTAGES TO RUN THROUGH THE MCU WITHOUT A LIVE PATIENT
 0.001286776,
 0.030581948,
 0.094492946,
